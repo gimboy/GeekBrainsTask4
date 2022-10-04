@@ -32,7 +32,7 @@ public class MyQueue<T> {
         if (this.size() > 0)
             return this.array[end];
         else {
-            System.out.println("Очередь пуста ");
+            System.out.println("Очередь пуста");
             return null;
         }
     }
@@ -41,7 +41,7 @@ public class MyQueue<T> {
         if (this.size() > 0) {
             return this.array[this.end--];
         } else {
-            System.out.println("Очередь пуста ");
+            System.out.println("Очередь пуста");
             return null;
         }
     }
